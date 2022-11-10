@@ -1,4 +1,4 @@
-import HeaderSecondary from '../../HeaderSecondary';
+import HeaderSecondary from './HeaderSecondary';
 import HeaderPrimary from './HeaderPrimary';
 
 export default function Header() {
@@ -8,7 +8,7 @@ export default function Header() {
         <HeaderSecondary></HeaderSecondary>
       </section>
 
-      <section className="header-primary">
+      <section className="header-primary d-none d-lg-block mt-lg-5">
         <HeaderPrimary></HeaderPrimary>
       </section>
     </>
