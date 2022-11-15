@@ -181,14 +181,14 @@ export default function FooterPrimary() {
           </li>
           <li>
             <a href="/" target="_blank" rel="noopener noreferrer" title="Chat">
-              <i class="fa-solid fa-comments"></i>
+              <i className="fa-solid fa-comments"></i>
               Chat
             </a>
           </li>
 
           <li>
             <a href="mailto:pixellab@gmail.com" title="E-mail">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               E-mail
             </a>
           </li>
