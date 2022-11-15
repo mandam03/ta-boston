@@ -3,5 +3,16 @@
   ul {
     display: inline-flex;
     gap: 8px;
+
+    a {
+      padding: 8px 16px;
+      border-radius: 24px;
+      transition: color 0.2s linear, background-color 0.2 linear;
+
+      &:hover {
+        color: $white;
+        background-color: $brand-primary;
+      }
+    }
   }
 }
