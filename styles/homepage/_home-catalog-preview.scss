@@ -19,7 +19,7 @@
     flex-direction: column;
     gap: 70px;
   }
-  //v1 of layout
+  //varianta 1 of layout
   &:first-child {
     .product-tiles {
       @include media-breakpoint-up(lg) {
@@ -34,6 +34,32 @@
             margin-left: 0;
           }
         }
+      }
+    }
+  }
+  //varianta 2 of layout flex
+  &:nth-child(2) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & > li {
+          width: 27.386541%;
+        }
+      }
+    }
+  }
+
+  //v3 of layout flex
+
+  &:nth-child(3) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        gap: 8.8419405%;
       }
     }
   }
