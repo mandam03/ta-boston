@@ -1,5 +1,5 @@
-//hacks
-//mai multe variante layouturi
+// hacks
+// mai multe layouturi
 
 // .home-catalog-preview:first-child {
 //   .product-tiles {
@@ -19,14 +19,15 @@
     flex-direction: column;
     gap: 70px;
   }
-  //varianta 1 of layout
+
+  // v1 of layout
   &:first-child {
     .product-tiles {
       @include media-breakpoint-up(lg) {
         display: block;
 
         & > li {
-          width: 27.386541%; //350 / 1278
+          width: 27.386541%; // 350 / 1278
           float: left;
           margin-left: 8.8419405%; // 113 / 1278
 
@@ -37,7 +38,8 @@
       }
     }
   }
-  //varianta 2 of layout flex
+
+  // v2 of layout flex
   &:nth-child(2) {
     .product-tiles {
       @include media-breakpoint-up(lg) {
@@ -52,8 +54,7 @@
     }
   }
 
-  //v3 of layout flex
-
+  // v3 of layout grid
   &:nth-child(3) {
     .product-tiles {
       @include media-breakpoint-up(lg) {

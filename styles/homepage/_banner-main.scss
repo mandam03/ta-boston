@@ -1,15 +1,9 @@
 .banner-main {
-  background: $brand-secondary url('/images/banners/banner-01.jpg') center
-    center / cover no-repeat;
   height: 716px;
   margin-bottom: 16px;
   color: $white;
   font-weight: 300;
   font-size: 18px;
-
-  @include media-breakpoint-up(lg) {
-    background-image: url('/images/banners/banner-02.jpg');
-  }
 
   &-inner {
     display: flex;
@@ -21,7 +15,6 @@
 
     @include media-breakpoint-up(lg) {
       align-items: flex-end;
-      padding-right: 80px;
     }
 
     h1 {
